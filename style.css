@@ -12,7 +12,8 @@ header{
   top: 0;
   right: 500;
   background-color: white;
-  width: 100%
+  width: 100%;
+  z-index: 3;
 }
 
 .lenny{
@@ -32,6 +33,7 @@ p{
 
 .feedback{
   position: fixed;
+  z-index: 3;
   margin-top:150px;
   right: 0;
   margin-right: -50px;
