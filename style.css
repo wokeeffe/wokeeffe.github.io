@@ -1,8 +1,10 @@
 body{
-  background-image: url("config.png");
-  width: 100%;
   height: 100%;
+  background-image: url("config.png");
+  background-size: 100%;
+  background-attachment: fixed;
   z-index: 2;
+
 }
 
 header{
@@ -71,7 +73,7 @@ label a:visited {
 
 label a:hover {
   color: black;
-  
+
 }
 
 label a:active {
