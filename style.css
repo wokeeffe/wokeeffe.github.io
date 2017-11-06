@@ -1,39 +1,5 @@
-body{
-  height: 100%;
-  background-image: url("config.png");
-  background-size: 100%;
-  background-attachment: fixed;
-  z-index: 2;
-
-}
-
-header{
-  position: fixed;
-  top: 0;
-  right: 500;
-  background-color: white;
-  width: 100%;
-  z-index: 3;
-}
-
-.lenny{
-  position: fixed;
-  bottom: 0;
-  right: 0px;
-  margin-right: 15px;
-  z-index: 100;
-}
-
-p{
-  color: white;
-  visibility: hidden;
-  width: 500px;
-}
-
-
 .feedback{
   position: fixed;
-  z-index: 4;
   margin-top:150px;
   right: 0;
   margin-right: -50px;
@@ -57,8 +23,6 @@ p{
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-
-
 .feedback:hover{
   margin-right: -40px;
 }
@@ -75,10 +39,19 @@ label a:visited {
 
 label a:hover {
   color: black;
-
 }
 
 label a:active {
   color: white;
   text-decoration-line: none;
+}
+
+header{
+  position: fixed;
+  top: 0;
+  right: 500;
+  background-color: white;
+  width: 100%;
+  z-index: 2;
+  background-repeat: no-repeat;
 }
